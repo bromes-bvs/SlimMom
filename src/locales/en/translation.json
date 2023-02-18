@@ -1,0 +1,145 @@
+{
+  "auth": {
+    "title": {
+      "login": "Log In",
+      "register": "Register",
+      "exit": "Exit"
+    },
+    "input": {
+      "email": {
+        "label": "Email",
+        "min": "Min length 3!",
+        "max": "Max length 254!",
+        "err": "Length must be greater than 3 and less than 254",
+        "mail": "Invalid email - u need @ and ."
+      },
+      "name": {
+        "label": "Name",
+        "min": "Min length 3!",
+        "max": "Max length 254!",
+        "err": "Length must be greater than 3 and less than 254"
+      },
+      "pass": {
+        "label": "Password",
+        "min": "Min length 8!",
+        "max": "Max length 100!",
+        "err": "Length must be greater than 8 and less than 100"
+      },
+      "required": "Required"
+    },
+    "notific": {
+      "reg": {
+        "succ": "You successfully registered",
+        "err": {
+          "have": "Provided email already exists!",
+          "failed": "Failed to register, try again pls!"
+        }
+      }
+    }
+  },
+  "calc": {
+    "title": "Calculate your daily calorie intake right now",
+    "form": {
+      "height": {
+        "title": "Height",
+        "placeholder": "Write down your height in sm.",
+        "req": "Please write down your height",
+        "err": "Your height must be a number!",
+        "positive": "Height must be a positive number",
+        "min": "You cant be that short!",
+        "integer": "Your height must be an integer!",
+        "max": "You cant be that big!"
+      },
+      "age": {
+        "title": "Age",
+        "placeholder": "Write down your age.",
+        "req": "Please write down yourage",
+        "err": "Your age must be a number!",
+        "positive": "Age must be a positive number",
+        "min": "Aplication is not for children",
+        "integer": "Your age must be an integer!",
+        "max": "Better check your weight with a doctor!"
+      },
+      "curW": {
+        "title": "Current weight",
+        "placeholder": "Write down your weight in kg.",
+        "req": "Please write down your current weight",
+        "err": "Your current weight must be a number!",
+        "positive": "Weight must be a positive number",
+        "min": "You are too light to use this app.",
+        "integer": "Your weight must be an integer!",
+        "max": "You cant be that big!"
+      },
+      "desW": {
+        "title": "Desired weight",
+        "placeholder": "Your desired weight in kg.",
+        "req": "Please write down your desired weight",
+        "err": "Your desired weight must be a number!",
+        "positive": "Desired weight must be a positive",
+        "min": "You cant be that light.",
+        "integer": "Your desired weight must be an integer!",
+        "max": "You cant do better!",
+        "notOneOf": "Your desired weight and current weight are same!"
+      },
+      "type": {
+        "title": "Blood type",
+        "placeholder": "Choose your blood type.",
+        "req": "Please chose your blood type"
+      },
+      "numberOnly": "Number only"
+    },
+    "btnText": {
+      "valid": "Start losing weight",
+      "notValid": "Fill in your data"
+    },
+    "modal": {
+      "title": "Your recommended daily calorie intake is",
+      "kcal": "kcal",
+      "noEatTitle": "Foods you should not eat"
+    }
+  },
+  "summary": {
+    "title": "Summary for",
+    "left": "Left",
+    "consumed": "Consumed",
+    "daily": "Daily rate",
+    "n": "n% of normal",
+    "noFoodTitle": "Food not recommended",
+    "noFoodText": "Your diet will be displayed here",
+    "overweidth": "% overweidth"
+  },
+  "diary": {
+    "enterProduct": "Enter product name",
+    "noselectedDate": "There are no products on the selected date",
+    "grams": "Grams",
+    "g": "g",
+    "kcal": "kcal",
+    "form": {
+      "gr": {
+        "label": "Grams"
+      },
+      "product": {
+        "label": "Enter product name",
+        "noOptionsText": "No products"
+      },
+      "btn": "Add"
+    },
+    "calendarLabel": "Basic example"
+  },
+  "navigate": {
+    "diary": "Diary",
+    "calc": "Calculator"
+  },
+  "filter": {
+    "label": "Enter product",
+    "placeholder": "Search..."
+  },
+  "modal": {
+    "noEat": "Food you should not eat",
+    "start": "Start losing weight"
+  },
+  "notFoundPage": {
+    "title": "Not Found Page",
+    "textLink": "Go home"
+  }
+}

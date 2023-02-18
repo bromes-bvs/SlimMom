@@ -1,0 +1,13 @@
+@import-normalize; /* bring in normalize.css styles */
+
+body {
+  margin: 0;
+  font-family: 'Verdana, sans-serif';
+  font-style: normal;
+  color: #212121;
+}
+/* .MuiBackdrop-root.MuiModal-backdrop {
+  display: none;
+  @media screen and (max-width: 767px) {
+  }
+} */

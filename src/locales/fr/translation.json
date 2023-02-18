@@ -1,0 +1,145 @@
+{
+  "auth": {
+    "title": {
+      "login": "Connexion",
+      "register": "Inscription",
+      "exit": "Sortie"
+    },
+    "input": {
+      "email": {
+        "label": "Poster",
+        "min": "Longueur minimale 3!",
+        "max": "Longueur maximale 254!",
+        "err": "La longueur doit être supérieure à 3 et inférieure à 254",
+        "mail": "E-mail invalide - vous avez besoin de @ et ."
+      },
+      "name": {
+        "label": "Nom",
+        "min": "Longueur minimale 3!",
+        "max": "Longueur maximale 254!",
+        "err": "La longueur doit être supérieure à 3 et inférieure à 254"
+      },
+      "pass": {
+        "label": "Mot de passe",
+        "min": "Longueur minimale 8!",
+        "max": "Longueur maximale 100!",
+        "err": "La longueur doit être supérieure à 8 et inférieure à 100"
+      },
+      "required": "Obligatoire"
+    },
+    "notific": {
+      "reg": {
+        "succ": "Vous vous êtes inscrit avec succès",
+        "err": {
+          "have": "L'e-mail fourni existe déjà!",
+          "failed": "Échec de l'inscription, réessayez svp !"
+        }
+      }
+    }
+  },
+  "calc": {
+    "title": "Calculez votre apport calorique quotidien",
+    "form": {
+      "height": {
+        "title": "Hauteur",
+        "placeholder": "Notez votre taille en cm.",
+        "req": "Veuillez noter votre taille",
+        "err": "Votre taille doit être un nombre!",
+        "positive": "La hauteur doit être un nombre positif",
+        "min": "Vous ne pouvez pas être aussi court!",
+        "integer": "Votre taille doit être un entier!",
+        "max": "Tu ne peux pas être si gros!"
+      },
+      "age": {
+        "title": "Âge",
+        "placeholder": "Notez votre âge.",
+        "req": "Veuillez inscrire votre âge",
+        "err": "Votre âge doit être un nombre!",
+        "positive": "L'âge doit être un nombre positif",
+        "min": "L'application n'est pas pour les enfants",
+        "integer": "Votre âge doit être un entier!",
+        "max": "Mieux vaut vérifier votre poids avec un médecin !"
+      },
+      "curW": {
+        "title": "Poids actuel",
+        "placeholder": "Notez votre poids en kg.",
+        "req": "Veuillez noter votre poids actuel",
+        "err": "Votre poids actuel doit être un nombre!",
+        "positive": "Le poids doit être un nombre positif",
+        "min": "Vous êtes trop léger pour utiliser cette application.",
+        "integer": "Votre poids doit être un entier!",
+        "max": "Tu ne peux pas être si gros !"
+      },
+      "desW": {
+        "title": "Poids souhaité",
+        "placeholder": "Votre poids souhaité en kg.",
+        "req": "S'il vous plaît écrivez votre poids désiré",
+        "err": "Votre poids désiré doit être un nombre !",
+        "positive": "Le poids souhaité doit être positif",
+        "min": "Tu ne peux pas être si léger.",
+        "integer": "Votre poids souhaité doit être un nombre entier!",
+        "max": "Vous ne pouvez pas faire mieux !",
+        "notOneOf": "Votre poids souhaité et votre poids actuel sont les mêmes!"
+      },
+      "type": {
+        "title": "Groupe sanguin",
+        "placeholder": "Choisissez votre groupe sanguin.",
+        "req": "Veuillez choisir votre groupe sanguin"
+      },
+      "numberOnly": "Chiffre seulement"
+    },
+    "btnText": {
+      "valid": "Commencez",
+      "notValid": "Remplissez vos données"
+    },
+    "modal": {
+      "title": "Votre apport calorique quotidien recommandé",
+      "kcal": "kcal",
+      "noEatTitle": "Aliments que vous ne devriez pas manger"
+    }
+  },
+  "summary": {
+    "title": "Résumé pour",
+    "left": "Restant",
+    "consumed": "Consommé",
+    "daily": "Taux journalier",
+    "n": "n% de la normale",
+    "noFoodTitle": "Nourriture non recommandée",
+    "noFoodText": "Votre régime sera affiché ici",
+    "overweidth": "% de surpoids"
+  },
+  "diary": {
+    "enterProduct": "Entrez le nom du produit",
+    "noselectedDate": "Il n'y a pas de produits à la date sélectionnée",
+    "grams": "Grammes",
+    "g": "g",
+    "kcal": "kcal",
+    "form": {
+      "gr": {
+        "label": "Grammes"
+      },
+      "product": {
+        "label": "Entrez le nom du produit",
+        "noOptionsText": "Aucun produit"
+      },
+      "btn": "Ajouter"
+    },
+    "calendarLabel": "Exemple de base"
+  },
+  "navigate": {
+    "diary": "Agenda",
+    "calc": "Calculatrice"
+  },
+  "filter": {
+    "label": "Entrer le produit",
+    "placeholder": "Rechercher..."
+  },
+  "modal": {
+    "noEat": "Nourriture que vous ne devriez pas manger",
+    "start": "Commencez à perdre du poids"
+  },
+  "notFoundPage": {
+    "title": "Page introuvable",
+    "textLink": "Aller à la page d'accueil"
+  }
+}
