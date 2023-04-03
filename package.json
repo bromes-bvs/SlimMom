@@ -2,7 +2,6 @@
   "name": "react-homework-template",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://bromes-bvs.github.io/SlimMom/",
   "dependencies": {
     "@date-io/moment": "^2.16.1",
     "@emotion/react": "^11.10.5",
