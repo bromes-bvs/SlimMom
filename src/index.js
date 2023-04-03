@@ -15,7 +15,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <Provider store={store}>
       <PersistGate loading={<LoaderSuspense />} persistor={persistor}>
-        <BrowserRouter basename="/SlimMom">
+        <BrowserRouter>
           <ThemeProvider theme={theme}>
             <App />
           </ThemeProvider>
