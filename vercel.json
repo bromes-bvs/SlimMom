@@ -1,6 +1,6 @@
 {
   "rewrites": [{ "source": "/(.*)", "destination": "/index.html" }],
-  "outputDirectory": "public",
+  "outputDirectory": ".",
   "buildCommand": "",
   "installCommand": "npm install -g vercel"
 }
