@@ -1,6 +1,0 @@
-{
-  "rewrites": [{ "source": "/(.*)", "destination": "/index.html" }],
-  "outputDirectory": ".",
-  "buildCommand": "",
-  "installCommand": "npm install -g vercel"
-}
